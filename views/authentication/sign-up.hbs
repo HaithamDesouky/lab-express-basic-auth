@@ -1,0 +1,21 @@
+<form method="post">
+
+<label for="input-name"> First and Last Name</label>
+<input type="text" id="input-name" placeholder="First and Last Name" name="name" required>
+
+<label for="input-email"> Email</label>
+<input type="text" id="input-email" placeholder="Email" name="email" required>
+
+<label for="input-password"> Password</label>
+<input type="text" id="input-password" placeholder="Password" name="password" required>
+
+<button>Sign Up</button>
+
+</form>
+
+
+{{#if error}}
+
+<p>There wasn an error signing up</p>
+
+{{/if}}
